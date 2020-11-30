@@ -7,7 +7,7 @@ defmodule Friends.Application do
 
   def start(_type, _args) do
     children = [
-      Friends.Repo,
+      # Friends.Repo,
       # Starts a worker by calling: Friends.Worker.start_link(arg)
       # {Friends.Worker, arg}
     ]
